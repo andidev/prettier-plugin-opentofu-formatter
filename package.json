@@ -1,35 +1,35 @@
 {
-  "name": "@andidev/prettier-plugin-opentofu-formatter",
-  "version": "1.0.0",
-  "description": "Prettier plugin for formatting Terraform files (.tf and .tfvars) using opentofu fmt.",
-  "keywords": [
-    "plugin",
-    "prettier",
-    "tofu",
-    "opentofu",
-    "opentofu"
-  ],
-  "repository": "github:andidev/prettier-plugin-opentofu-formatter",
-  "private": false,
-  "license": "MIT",
-  "main": "lib/index.js",
-  "files": [
-    "lib/**/*.js",
-    "!lib/__tests__/**"
-  ],
-  "scripts": {
-    "test": "jest"
-  },
-  "devDependencies": {
-    "jest": "29.2.1",
-    "prettier": "2.7.1"
-  },
-  "peerDependencies": {
-    "prettier": ">= 1.16.0"
-  },
-  "peerDependenciesMeta": {
-    "prettier": {
-      "optional": true
+    "name": "@andidev/prettier-plugin-opentofu-formatter",
+    "version": "1.0.1",
+    "description": "Prettier plugin for formatting Terraform files (.tf and .tfvars) using opentofu fmt.",
+    "keywords": [
+        "plugin",
+        "prettier",
+        "tofu",
+        "opentofu",
+        "opentofu"
+    ],
+    "repository": "github:andidev/prettier-plugin-opentofu-formatter",
+    "private": false,
+    "license": "MIT",
+    "main": "lib/index.js",
+    "files": [
+        "lib/**/*.js",
+        "!lib/__tests__/**"
+    ],
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "29.2.1",
+        "prettier": "2.7.1"
+    },
+    "peerDependencies": {
+        "prettier": ">= 1.16.0"
+    },
+    "peerDependenciesMeta": {
+        "prettier": {
+            "optional": true
+        }
     }
-  }
 }
