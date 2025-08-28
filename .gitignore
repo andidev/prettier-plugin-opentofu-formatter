@@ -1,2 +1,18 @@
 coverage/
 node_modules/
+
+# Intellij (WebStorm config)
+# Ignore everything in .idea directory
+.idea/*
+# Specifically include these XML files
+!.idea/aws.xml
+!.idea/eslintPlugin.xml
+!.idea/jsLibraryMappings.xml
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/prettier.xml
+!.idea/vcs.xml
+!.idea/*.iml
+!.idea/codeStyles/**
+!.idea/dictionaries/**
+!.idea/inspectionProfiles/**
