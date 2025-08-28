@@ -10,6 +10,7 @@
     "opentofu"
   ],
   "repository": "github:andidev/prettier-plugin-opentofu-formatter",
+  "private": false,
   "license": "MIT",
   "main": "lib/index.js",
   "files": [
