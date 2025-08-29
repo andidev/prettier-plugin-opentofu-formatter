@@ -1,6 +1,6 @@
 {
     "name": "@andidev/prettier-plugin-opentofu-formatter",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Prettier plugin for formatting Terraform files (.tofu, .tf and .tfvars) using opentofu fmt.",
     "keywords": [
         "plugin",
