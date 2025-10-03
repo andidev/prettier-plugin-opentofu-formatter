@@ -13,7 +13,7 @@ npm i -D prettier @andidev/prettier-plugin-opentofu-formatter
 ```
 
 Add plugin to your prettier config
-```json
+```
 plugins: ['@andidev/prettier-plugin-opentofu-formatter']
 ```
     
